@@ -30,6 +30,9 @@ paginate_path: "/page:num/"
 collections:
   posts:
     output: true
+  pages:
+    output: true
+    permalink: /:name/
 
 # Defaults for posts
 defaults:
