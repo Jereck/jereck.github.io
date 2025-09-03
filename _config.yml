@@ -3,6 +3,7 @@ title: "Jake Reck"
 subtitle: "Learning Machine Learning & Sharing the Journey"
 description: "A blog where I document what I'm learning about Python, SQL, data engineering, and cloud."
 url: "https://jereck.github.io"   # change to your GitHub Pages URL
+repository: jereck/jereck.github.io
 baseurl: ""                             # leave empty for GitHub Pages root
 
 # Author settings
