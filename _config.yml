@@ -1,0 +1,66 @@
+# Site settings
+title: "Jake Reck"
+subtitle: "Learning Machine Learning & Sharing the Journey"
+description: "A blog where I document what I'm learning about Python, SQL, data engineering, and cloud."
+url: "https://jereck.github.io"   # change to your GitHub Pages URL
+baseurl: ""                             # leave empty for GitHub Pages root
+
+# Author settings
+author:
+  name: "Jake Reck"
+  bio: "Aspiring ML Engineer | Blogging my learning journey"
+  avatar: "/assets/images/avatar.png"   # optional, add your own image
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Plugins (GitHub Pages supports these)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
+
+# Pagination (for blog index)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# Navigation menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+
+# Social links
+social:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/yourusername/"
